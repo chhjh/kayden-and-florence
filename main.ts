@@ -1,6 +1,6 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showString("KAYDEN")
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showString("FLORENCE")
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(500)
+    basic.showIcon(IconNames.SmallHeart)
+    basic.pause(500)
 })
